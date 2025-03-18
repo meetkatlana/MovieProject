@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+    <title>PickAmovie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="https://i.postimg.cc/nh4YPgz8/slider-bg.jpg">
+    <div style="height: 40vh;">
+    <nav class="main">
+        <div class="main">
+            <a id="head"  style=" margin-top: 40px;" href="/Movie/main.html">PickAmovie</a>
+            <input type="text" placeholder="Search Here.....   " />
+            <a style="font-weight:bold; text-decoration:none; color: white" href="/Movie/moviepick.html" class="dropbtn">Movie Pick <span
+                    style="margin-left: 20px"></span></a>
+            <div class="dropdown">
+                <button class="dropbtn">Movie Type</button>
+                <div class="dropdown-content">
+                    <a class="m" href="/Movie/action/action.html">Action</a>
+                    <a class="m" href="/Movie/action/comedy.html">Comedy</a>
+                    <a class="m" href="/Movie/action/Drama.html">Drama</a>
+                    <a class="m" href="/Movie/action/Thriller.html">Thriller</a>
+                    <a class="m" href="/Movie/action/Romance.html">Romance</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Top Actors</button>
+                <div class="dropdown-content">
+                    <a class="m" href="/Movie/Actor/tom.html">Tom Crusic</a>
+                    <a class="m" href="/Movie/Actor/srk.html">Srk</a>
+                    <a class="m" href="/Movie/Actor/ranbir.html">Ranbir Kapoor</a>
+                    <a class="m" href="/Movie/Actor/johnson.html">Dwayne Johnson</a>
+                    <a class="m" href="/Movie/Actor/amir.html">Aamir Khan</a>
+                </div>
+            </div>
+<a style="color: white;  font-weight:bold;" class="dropbtn" onclick="openSignup()">Sign Up</a>
+
+<div id="signupModal" class="modal">
+    <div class="modal-contents">
+        <h2 style="color: black; font-size:40px;">Sign Up</h2>
+        <form>
+            <label for="email">Email :</label>
+            <input type="email" placeholder="Enter Email" required>
+            <label for="email">Password :</label>
+            <input type="password" placeholder="Enter Password" required>
+            <button style="margin-top: 42px; background-color:green;" type="submit">Register</button>
+        </form>
+       </div>
+    </div> 
+</div>
+    </nav>
+    </div>
+
+    <hr style="margin-top: 70vh;">
+    <div class="foot">
+        <div>
+           <ul>
+            <li style="margin-left: 30px;">100+</li>
+            <li>Movies</li>
+           </ul>
+        </div>
+        <div>
+            <ul>
+                <li style="margin-left: 30px;">5+</li>
+                <li>Types</li>
+               </ul>
+        </div>
+        <div>
+            <ul>
+                <li style="margin-left: 30px;">5+</li>
+                <li>Actors</li>
+               </ul>
+        </div>
+       </div>
+        <footer>
+            <div class="footer-container">
+                <ul class="footer-links">
+                    <li class="last">Home</li>
+                    <li class="last">About Us</li>
+                    <li class="last">Contact Us</li>
+                    <li class="last">Privacy Policy</li>
+                    <li class="last">Terms & Conditions</li>
+                </ul>
+                <p>© 2025 PickAmovie. All rights reserved.</p>
+            </div> 
+        </footer>
+        
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

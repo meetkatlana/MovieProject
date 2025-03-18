@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+    <title>Tom Top</title>
+    <link rel="stylesheet" href="/Movie/style.css">
+</head>
+<body background="https://i.postimg.cc/nh4YPgz8/slider-bg.jpg">
+    <div style="height: 40vh;">
+    <nav class="main">
+        <div class="main">
+            <a id="head"  style=" margin-top: 40px;" href="/Movie/main.html">PickAmovie</a>
+            <input type="text" placeholder="Search Here.....   " />
+            <a style="font-weight:bold; text-decoration:none; color: white" href="/Movie/moviepick.html" class="dropbtn">Movie Pick <span
+                    style="margin-left: 20px"></span></a>
+            <div class="dropdown">
+                <button class="dropbtn">Movie Type</button>
+                <div class="dropdown-content">
+                    <a class="m" href="/Movie/action/action.html">Action</a>
+                    <a class="m" href="/Movie/action/comedy.html">Comedy</a>
+                    <a class="m" href="/Movie/action/Drama.html">Drama</a>
+                    <a class="m" href="/Movie/action/Thriller.html">Thriller</a>
+                    <a class="m" href="/Movie/action/Romance.html">Romance</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Top Actors</button>
+                <div class="dropdown-content">
+                    <a class="m" href="/Movie/Actor/tom.html">Tom Crusic</a>
+                    <a class="m" href="/Movie/Actor/srk.html">Srk</a>
+                    <a class="m" href="/Movie/Actor/ranbir.html">Ranbir Kapoor</a>
+                    <a class="m" href="/Movie/Actor/johnson.html">Dwayne Johnson</a>
+                    <a class="m" href="/Movie/Actor/amir.html">Aamir Khan</a>
+                </div>
+            </div>
+<a style="color: white;  font-weight:bold;" class="dropbtn" onclick="openSignup()">Sign Up</a>
+
+<div id="signupModal" class="modal">
+    <div class="modal-contents">
+        <h2 style="color: black; font-size:40px;">Sign Up</h2>
+        <form>
+            <label for="email">Email :</label>
+            <input type="email" placeholder="Enter Email" required>
+            <label for="email">Password :</label>
+            <input type="password" placeholder="Enter Password" required>
+            <button style="margin-top: 42px; background-color:green;" type="submit">Register</button>
+        </form>
+       </div>
+    </div> 
+</div>
+    </nav>
+ <!--Ask Question -->
+<div class="ques">
+    <h1> Best Tom Crusic Movies</h1>
+</div>
+    </div>
+<!-- Movies -->
+<div>
+    <div class="phot" style="margin-top: 30px;">
+        <img src="https://i.postimg.cc/KYdgb66k/14.jpg">
+        <img src="https://i.postimg.cc/zG2gtbpk/13.jpg">
+        <img src="https://media-hosting.imagekit.io//c192179c2c7d437e/11.jpeg?Expires=1836125165&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AOXjxA9fYvJyWW05o9M5szdeQei5qrHkTe-giEcB5sPrK6ygpKtHii2SkDih8Frt8-FXbp6IE1bECaeOHDUB9a2cIl6EiVSpgesohHUT6hz4OGfX9yQjPcZca2hzQxBl~VMYYBawJuObVYM8UYgkC0AC~~0rh7dHOE1tham6tXaJunRq8vfSwOxSoOEw5YHhRJwtEp9vsXdHgEHvC2rXpQ65GjundcqFTqJRIcBL2kHxy9FcRMXdlckBsbc0V~JuDvVCuIeBgbYCN7MQBGgfiEnGI578lUIY3-gdm05TcH5wjqXoG8E4Wvppznl6Xac9~4FWmkAiCl~4QCWYIuLu1g__">
+        <img src="https://media-hosting.imagekit.io//db0be5fb2e524937/11.jpeg?Expires=1836125546&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=C9g4dlmJvv8ahO7vzBvy0ocBo~Ujt5Fr0H7ZtwwU9mJTMU3OOkUUlV39kQgfLezccnV8L6JzR3lwp1C-9d9HHoKHqNkFz2hFTANU3xqWKJ0oaspo7XoFAjVpgd2ZVWzJkPwMc~393MiIkVN2Z8htiIitl-W4NYRAS2mjv0u3WkUdpNw~I1ExLTpOYY5z~JkBN3tXrxb1XO5cQu64YJ-0CDFo~jlTNBJYYHJfBhb9xytM3T0HLGR6XlvVyjXSVwmriASDBJxjmTcichpPJz-rUJaNx9tOWs5ei7ZDWb~M85lTimSIHJXgfdkK9Nedc3Pv~Ycb2OhanyHKAaFkxKNQzg__">
+        <img src="https://media-hosting.imagekit.io//8fad2f87d30c41c3/16.jpeg?Expires=1836125781&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=q0pdrxm3Xy2rBVVyafQYIhq2uYpuqqPOl6SBKq6Ehob7YHBGpehiztRqI8iK1Y~AtnSV1pi8iAplEbgKuggu283inzy~AiDgR0wXt8Ltbc1OKzfU3E57aX7y8TWjagsiWmLkutLzwgtR7Urbw9i~qSehuljM2NP0zYJHrT7html-p1orbikNifxRP7qVAsflhSLiiLeI8Z4hlffxoCMAKAwPQqJQofMLAmPuYZIzeNs9QoBh-KJxqCjin2hXt~D1SKhXvqqgq3PGpe5De4TrZ7IAyicfTSs3fwYEuey4sOkFuQyBha7lD1dbfZejyoUi8hcETqMhRhRyZrofJWZoZw__">
+        <img src="https://media-hosting.imagekit.io//9de2fff96a9e43e3/1.jpeg?Expires=1836137360&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BwfLYTF2oycvZEn8f2SqWThUDeQO5FOhUVPdYK5u2YCIZ3lT88d3aWUcsQFbetGlq21T0Lv0CWy6VSaFKoQG2avSbFdn48P-V--3WaeBOnSlEVFvTAX0S2J-dgnDp6rcXSFcjx3SOo1J9ifym6giNoCYWVD2B7i0itWcP91Hsa~3E3~TWanSrlxRMS-HUrsNWq87K3sNjT89XNAN6gtaZNauoGNkcFwJlyseJssQuqKErfOEGGYHYLLeswyjObWxHgP~7aJco8kxLS7cFLJZ4grj57v8pVIqDKxzk9ixrBPRkBWk3RW-29Ro-VBhD4WpW~iFeKgBPSn8YHPazXY2vw__">
+    </div>
+       <div class="phot" style="margin-top: 30px;">
+        <img src="https://media-hosting.imagekit.io//773599b78d744ebf/4.jpeg?Expires=1836137391&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KOu7Ecgd-bmHSMoqDnjRPL7Oo3lI7z9-Axw-giknsogSaBqVkmZzov89fj3h3euGWHGNuxKAXX~f4khI3cyLpsRVNDVsJD7NAtRGtahqQqinqbCCb0xHWRrtRdYnrc8HV6dopvwA7Me67fs97nG65YncEkMMjgmEXYpfNytU-pv9BB5UVxg9234Hm2kJVzObAWsMAIPjQ8HH4xqHMnYi4Uqe-aOVzgWT~jiLzmy5tfz0TU0~3ADx4msdVtGJ8HYhHRe0PYpKQPncmEloeelvZ53MRBo6IswIvPgppoyOxNrlRtqXx7fU-UqEOIPuoyLY~ZNkDvNAphoY-qI7kh4Jww__">
+        <img src="https://media-hosting.imagekit.io//bc468b2502ee46ac/3.jpeg?Expires=1836137391&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pQw2KlqE8r606OeQVPv-9X7yeGPiDaI~SyAnuJnFjRyZ-1o3luYNfPgm-ncQNysUHXXhDrq1mXRPnzTSzNuCegeqJlusWw8zvXrW9Fb1Qsba-aAuPfuxUPfbH7FhWDUTXoLg4bCyoDfSYSeUggaAtuuBuVBnQXY6umSO2ffCnjlcjyfOqqJeRWFPs-Do4CDZEaRWz~VfRarxnkq9R8MOB~UvCyvBxarRpy7hi7Tu~d-2gtyOYaheuTRHozW~i7yc0OeUgpLhQrU9TL97ncZfO8X-OcUDKEXHQJEjkHEYUUkZAoyiTcGxqEl3ITqBOlPRqiV2MlB4shpchsqvtVdyzQ__">
+        <img src="https://media-hosting.imagekit.io//ecea123846904dff/5.jpeg?Expires=1836137437&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ioLiEe1bn8KVqSASjNibtibk2TLEzpUUj7CeLzSdixIednkxqeR~R3sdkDOeXFY4Io2~NURBlO5nySnq1l12oNtsyxX6AjSi11eE0x7j7YpJ3DE75wLF3D5N4-rmeKzmc44tQ2QJbpkcxs~ZtptjDYgkOl0JxzoyfM3zwOy2osDGpZ5dYQokP39x8ZYyQ~~pTrCwe3Z99iZ5ZehFgUYLAaZDbhsb1EPr6BtAEL0BiiGS2keqUdL2mqP5VpOIUY0t~fFnsPIW1ywsCKrWYDFMLgclGo4Sd3MSXevcMd6sP7ykcSS~KgDdpz7Res-M0t7SfEr7WcQcPYxMuZAcHw5fAw__">
+    </div>
+    </div>
+        <hr style="margin-top: 35vh;">
+    <div class="foot">
+        <div>
+           <ul>
+            <li style="margin-left: 30px;">100+</li>
+            <li>Movies</li>
+           </ul>
+        </div>
+        <div>
+            <ul>
+                <li style="margin-left: 30px;">5+</li>
+                <li>Types</li>
+               </ul>
+        </div>
+        <div>
+            <ul>
+                <li style="margin-left: 30px;">5+</li>
+                <li>Actors</li>
+               </ul>
+        </div>
+       </div>
+        <footer>
+            <div class="footer-container">
+                <ul class="footer-links">
+                    <li class="last">Home</li>
+                    <li class="last">About Us</li>
+                    <li class="last">Contact Us</li>
+                    <li class="last">Privacy Policy</li>
+                    <li class="last">Terms & Conditions</li>
+                </ul>
+                <p>© 2025 PickAmovie. All rights reserved.</p>
+            </div> 
+        </footer>
+        
+    
+    <script src="/Movie/script.js"></script>
+</body>
+
+</html>
