@@ -178,11 +178,9 @@ img{
 
 }
 
-.pic img:hover{
+.pic img{
   transition: transform 1s ease;
 }
 .pic img:hover{
-
   transform: scale(1.2);
-
 }
